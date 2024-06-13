@@ -1,6 +1,6 @@
 :root {
-    --branco-principal: #FFFFFF;
-    --cinza-secundario: #C0C0C0;
+    --branco-principal: #dab1b1;
+    --cinza-secundario: #0e0c0c;
     --botao-azul: #167BF7;
     --cor-de-fundo: #00030C;
 }
@@ -11,4 +11,15 @@ body {
 * {
     margin: 0;
     padding: 0;
+}
+.principal {
+    background-image: url("img/Background.png");
+}
+.container {
+    height: 100vh;
+}
+.principal {
+    background-image: url("img/Background.png");
+    background-repeat: no-repeat;
+    background-size: contain;
 }
